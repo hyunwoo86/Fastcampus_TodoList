@@ -1,12 +1,11 @@
 import React, { useReducer, createContext, useContext, useRef } from "react";
-import { act } from "react-dom/test-utils";
 // useReducer를 통하여 바로 함수 적용
 
 const initialTodos = [
   {
     id: 1,
     text: "프로젝트 생성하기",
-    done: true,
+    done: false,
   },
   {
     id: 2,
